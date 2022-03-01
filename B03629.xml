@@ -1,0 +1,564 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached by the learned Mr Alexander Henderson, before the sitting down of the General Assembly, begun the 12 of August 1639.</title>
+            <author>Henderson, Alexander, 1583?-1646.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B03629</idno>
+            <idno type="STC">Wing H1438A</idno>
+            <idno type="STC">ESTC R177932</idno>
+            <idno type="EEBO-CITATION">53981662</idno>
+            <idno type="OCLC">ocm 53981662</idno>
+            <idno type="VID">180245</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B03629)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180245)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2823:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached by the learned Mr Alexander Henderson, before the sitting down of the General Assembly, begun the 12 of August 1639.</title>
+                  <author>Henderson, Alexander, 1583?-1646.</author>
+               </titleStmt>
+               <extent>[2], 3-16 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[S.l. :</pubPlace>
+                  <date>Printed in the year 1683.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Headpiece; initial letter.</note>
+                  <note>Imperfect: stained, tightly bound with slight loss of text.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of Scotland --  Government --  Sermons --  17th century.</term>
+               <term>Bible. --  N.T. --  Acts V, 32 --  Sermons --  17th century.</term>
+               <term>Sermons, English --  Scotland --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:180245:1"/>
+            <pb facs="tcp:180245:1"/>
+            <p>SERMON Preached by the Reverend MR ALEXANDER HENDERSON, Before the ſitting downe <hi>Of <gap reason="illegible: blotted" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> GENERAL ASSEMBLY, Begun the 12. of August 1639.</p>
+            <p>Printed in the Year 16<gap reason="illegible: blotted" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+            </p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:180245:2"/>
+            <head>PREFACE.</head>
+            <p>WE have now found an acceſſe to the Throne of Grace, and I pray God that theſe that are aſſembled here together to get this work crowned, may firſt labour t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> get theſe two things removed; Firſt, the con<g ref="char:EOLhyphen"/>ſcience of our guiltineſs, alas! there are non<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that diſcerns or conſiders their ſins, one thin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhould move our hearts that the Commons <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Land are ſo ignorant that they know n<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> God; and from that proceeds ſuch wickedneſs If that Paſtors had been more diligent in in<g ref="char:EOLhyphen"/>ſtructing, this Church had had a better fa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ere now. Secondly, Our weakneſs ſtayes as mountain, and we cannot climb unleſſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> we be helped, there is no remedie but th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> brightneſs of his mercy that he vvould diſſip<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> theſe clouds, and no remedie for our vvea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>neſs but the Povver of his might let us there<g ref="char:EOLhyphen"/>fore beg the ſame in the Name of JES<g ref="char:V">Ʋ</g>S.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="3" facs="tcp:180245:2"/>
+            <head>TEXT. ACTS Chap. V. 32. to the end.</head>
+            <epigraph>
+               <q>
+                  <p>When they heard that they vvere cut to the heart, and took counſel to ſlay them.</p>
+                  <p>Then ſtood there up one in the Counſel, a Pha<g ref="char:EOLhyphen"/>riſee, named Gamaliel, a Doctor of Lavv, had in reputation among all the People, and commanded to put the Apoſtles forth a little ſpace.</p>
+                  <p>And ſaid unto them, ye men of Iſrael, take heed to your ſelves, vvhat ye intend to do as touching theſe men, &amp;c.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>HE Words that were ſpoken by Peter and the other Apoſtles could give no juſt Cauſe of Provocation to the Adverſaries, for in their Doct<g ref="char:EOLhyphen"/>rine they inſiſted upon two innocent Points; One was faith in Chriſt, that ſince the Lord whom they crucified was now exalted to be a Prince that therefore they might believe in him, and get Remiſſion of Sins, and the o<g ref="char:EOLhyphen"/>ther was Obedience, they ought to obey God rather then men; yet they reſolved to kill
+<pb n="4" facs="tcp:180245:3"/>them, and had done ſo, if the Lord had not raiſed up a man to ſave them, and he prevail<g ref="char:EOLhyphen"/>ed that their fury was layed, wherein the A<g ref="char:EOLhyphen"/>poſtles rejoiced and doubled their Zeal.</p>
+            <p>
+               <hi>There are 4. particulars in the Text very conſiderable.</hi>
+            </p>
+            <list>
+               <item>1. <hi>The bad affects the Apoſtles preaching had upon the peoples hearts.</hi>
+               </item>
+               <item>2. <hi>The mean that God did uſe in Saveing of his Servants.</hi>
+               </item>
+               <item>3. <hi>The unjuſt proceedings of the Adver<g ref="char:EOLhyphen"/>ſaries.</hi>
+               </item>
+               <item>4. <hi>The Diſpoſition and Diligences of the Apoſtles that ceaſſed not; whereby you may learne that often times it comes to paſſe that men in Authority are provock<g ref="char:EOLhyphen"/>ed againſt Religion, whither in Obedi<g ref="char:EOLhyphen"/>ence to God, or in the tryall of their faith yet the Lord hes many wayes to ſave his owne Children, and the end ſhall be joy to the Saints and Advancement to the Goſpell.</hi>
+               </item>
+            </list>
+            <p>Let us returne to the firſt, which was the bad effects of the preaching, and that was two fold, one in their hearts, another in their he<g ref="char:EOLhyphen"/>ads, they were cut to the heart, the Word is borrowed from the cutting of a Sword o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Sau, in the 7. Acts, it is ſaid they guaſhed
+<pb n="5" facs="tcp:180245:3"/>with their teeth, and Acts 2.37. it is ſaid they were pricked in their hearts, we finde another effect, but it is different, the one and the other are very like; <hi>Rom.</hi> 11. <hi>v.</hi> 8. he calls the Spi<g ref="char:EOLhyphen"/>rit of Slumber the Spirit of compunction, the Godly have a pricking and your wicked have a pricking, as in that place, Acts 2, 37. they were pricked and tooke Counſel, but they go to them that wounded them, but they do not ſo here, but would ſlay them.</p>
+            <p>The Word of God his very different effects in the Godly, and the wicked, <hi>Rev.</hi> 1:16. it is like a two edged Sword, and <hi>Heb.</hi> 4. live<g ref="char:EOLhyphen"/>ly and weighty in Operation it either pricks or cutts, it is either a Word to cure thee or to kill thee. The Miniſters of Chriſt although they be otherwayes of no Reputation, yet if they could handle this Sword a right it ſhould wound; the children of God when they are wounded ſhoud bear it patiently, they are wounded becauſe of their Sins, the other be<g ref="char:EOLhyphen"/>cauſe they cannot commit Sin. So the one prepares for Chriſt, the other for Diſtruction, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he one ſhall end in health the other in wo, and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> may ſeem very Strange that all this tyme we <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hould never have heard a Word or Letter from <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur Prelats, that have been wounded with the <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>word; Men and Brethren I will not inſiſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pon their guiltineſs, for we can ſay no more
+<pb n="6" facs="tcp:180245:4"/>of them then the Text ſayes. And they toke counſel to ſlay them, and now we come to the Counſell, they reſolved to ſlay them, Coun<g ref="char:EOLhyphen"/>ſell is good and excellent neither hath it been derogatory to Authority for as Solomon ſayes in Counſel there is ſtability, theſe matters that are not agitat by Counſel are toſſed upon fancy, as Solomon felt the benefite of uſing it; 1. be<g ref="char:EOLhyphen"/>cauſe it was young. 2. Becauſe it was violen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conſider the Counſel of our Adverſaries, i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was very violent but it had not the other fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the men wanted not their years, yet they ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this violence, and they had another bad qua<g ref="char:EOLhyphen"/>lity to Supply that, and this ye may Learn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from the 17. Verſe, many of them were Saddu<g ref="char:EOLhyphen"/>ces and ſo unmeet to be Counſellers, for in Ac<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. 23. you ſee they beleeve not a Reſurrection and when ſuch unbeleevers are Councellers their Sentence will be to cut the throat <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Church an Common Wealth, they care no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> what violence they uſe to get preferment bu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> eſpecially Kirkmen that are Sadduces wh<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> crueltie ſhall be exerciſed by them, but eſp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>cially when they are given over to the Devil<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Miniſters when they fall are like Angels that a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Devills, no men in the Scripture are call<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Devills but Miniſters ſo they become incarna<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Devills, give God thanks (and his Majeſt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> that his given us this day to meet together a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb n="7" facs="tcp:180245:4"/>no thanks to them that either you are hearing, or that and I am preaching to you.</p>
+            <p>Followes the mean the ſecond thing, which was the man that ſpake and his Speech, the man was a Phariſee, he was Learned and a Doctor of Divinity, for his good parts of re<g ref="char:EOLhyphen"/>putation naturally and Politickly wiſe, and upon ſuch grounds he convinces them all, and further he ſeems to be a Peaceable man and does what he can to ſave innocent blood but there was one thing wanting, Faith in Chriſt, and love to his word. <hi>Act.</hi> 22. It is ſaid, Paul was brought up at the feet of Gamaliel, as was his Schollar ſo was his Maſter, he was igno<g ref="char:EOLhyphen"/>rant and ſo a perſecuter, there is more requi<g ref="char:EOLhyphen"/>red for accompliſhment of a man then the gifts of the minde, which this man ſeems to have a mans natural parts are like a veſture of gold, &amp; the gifts of grace like precious ſtones, but this faith is like a precious Diamond in the middle, incomparably greater in worth judge of things according to their quality the beſt of theſe be<g ref="char:EOLhyphen"/>ſide the great jewel are given to the wicked and the godly and are beſtowed on them for other mens good and not their owne but this is proper to thy ſelf and for thy ſelf and this jewel ſhall make the rich and it concerns non more then Miniſters it is required of Miniſters that they ſhould be Learned and in reputation
+<pb n="8" facs="tcp:180245:5"/>with the people, wiſe, peaceably diſpoſed and Learned <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> altho they cannot come to Eminent yet competent knowledge. 1 <hi>Tit.</hi> 
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> to exhort and comfort and convince the en<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>my not like theſe men that have ſheares an<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> tubs to cut of the woul and carry, their mi<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> away but no care to feed them, I ſay the<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> ſhould be furniſhed with all things both i<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>wardly and outwardly, and it is a pity that w<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> have not a Lebanon for trees to grow in, Profeſſor here &amp; a Profeſſor there all the plan<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ing will Soon be deſtroyed if there be not place for them, we are all crying for good M<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>niſters, have a care of the good plants that not Learning to read a Sermon and to Spill it i<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> the telling it is a pity that theſe that boaſt ſ<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> ſhould be ſo vaine, ard als great a pity that w<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> have not ſound Divinity, many get other men<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> preachings and theſe that are Learned ſhoul<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> be given to ſuch alterations, yet altho tho<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> wert als Learned als Gamaliel if thou have n<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> more, thou art not meet to be a Miniſter o<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> Chriſt, you know what intertainment the A<g ref="char:EOLunhyphen"/>poſtles got at Athens, they mocked them, <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> man that his a Learned head and a gracele<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> heart is not fitt for Chriſts work let us joyne both together of all men that ever I was ac<g ref="char:EOLhyphen"/>quainted with, I ſau none ſo profane as Mini<g ref="char:EOLhyphen"/>ſters, what was good in this man, let us ſtri<g ref="char:EOLhyphen"/>ve
+<pb n="9" facs="tcp:180245:5"/>to imitate and what he wants let us Labour <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>o have our Souls filled with the love of Chriſt and think more of grace than of Learning. Be<g ref="char:EOLhyphen"/>fore I come to his Speech, ſee not only Gods mercies but alſo Gods Providences which his wiſdom had deſigned and there or two peices of his Providence here ſeen one was the Lord brought them back from the gates of death when their ſoul as it were was in their hand; the other by ſuch a mean as they could not dream of, and theſe two are very ordinare with the Lord when yuu are in extremity he ſhewes himſelf and in ſuch wayes, and we may truly ſay that he hath done ſo with us, that when Epiſcopacy was deeply rooted even then God would cut them doune. Queſt: Wherefor doth the Lord ſo. 1. Anſwer for 3 reaſons, 1 that when the Lord comes in Exſtremity that his hand may be diſ<g ref="char:EOLhyphen"/>cerned and he get the greater glory, <hi>Iſaiah,</hi> 33, 7.9. <hi>Lebanon is ashamed and cut doune.</hi> 2. For the further confuſion of the enemies. <hi>Obad.</hi> 3. <hi>Whoſe habitation is in the high rocks who ſay<g ref="char:EOLhyphen"/>es in their hearts who shall bring me doune to the ground.</hi> 3 For our incouragement &amp; our Po<g ref="char:EOLhyphen"/>ſterity after us, that we ſhould only put our con<g ref="char:EOLhyphen"/>fidence in him who is only able to help us.</p>
+            <p>Now we come to the ſpeech it ſelf, wherein take notice of his intention, to <hi>Reſtraine</hi> he was a wiſe man and kneu no good would fol<g ref="char:EOLhyphen"/>low,
+<pb n="10" facs="tcp:180245:6"/>if they were harmed he knew the Roma<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> would be angry, and that the people had good likeing to them, this was a good and pe<g ref="char:EOLhyphen"/>aceable intention, tho not a pure and pious if he had had any aime to Gods glory and the Goſpel of Chriſt it had been good; I ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> no queſtion, there are many among us, th<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> have peaceable deſires and Laudible intente<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tions, but more is required, let us labour <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> have pious intentions, not only to have t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> preſent troubles ſettled, it ſhall ſoon break forth again, ſee what is aggreeable to his will <hi>Iste eſt malus, qui ſuae cauſae bonus,</hi> he is b<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> that is good only for himſelf, let us beſeech th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Lord that we may have hearts to ſeek his ho<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>our and the enlargement of Chriſts Kingdom.</p>
+            <p>Now for his argument, I would have y<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> refraine from theſe men, if it be of God, will come to paſs; this Argument had its own weakeneſs; if it be of men it ſhould be hindere<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> if of God it ſhould have be enfurthered the th<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> ſhould put them to tryal; we will not paſſe wh<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> is commendable in him, he proceeds on a goo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ground, if of men, to be rejected; if of God; <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> be received <hi>Mat:</hi> 21.25. The Baptiſme of Joh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was it from heaven or of men. <hi>Epheſ:</hi> 4. T<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> the Spirits whether they be of men or God it was the perpetuall doctrine of the Prophets <hi>Thus ſaith the Lord,</hi> and Paul ſaith, th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb n="11" facs="tcp:180245:6"/>which I received do I deliver; they that are <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ſciples, muſt be Beleevers, not what man <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ith: Firſt that it is true in matters internall <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>t not in matters external. Moſes when he appointed to build the Tabernacle, he gets <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>s directions: Solomon when he built the <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>emple had his warrand from David; and leſt <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>hey think Solomons warrand not to be ſuffici<g ref="char:EOLhyphen"/>ent, Ezekiah had his warrand according to <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>he commandment of David. O but you will <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ay, it is not ſo in the New Teſtament, there <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>re not ſo many ceremonies, it is a pitifull <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ing, we will not acknowledge that which we are ignorant of; diſtinguiſh betwixt multi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ude and number of ceremonies, they had ma<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>y we have fever, ſhall we think, we have <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ot ſo great light, as theſe who were to put an <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ſperſion on Chriſt, let us ſtrive to learne what Gods will is, when it is of God receive <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>t, but when of men reject it. Many ceremo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ies have exerciſed the Church of God many <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>imes and eſpecially that of the Government of the Church, and there are two cauſes that hinder the decideing of it. 1. The hudge jud<g ref="char:EOLhyphen"/>gement of God upon the congregations, and ſo puts Gods Servants to tryal. 2. Cauſe is the avarice of Churchmen, ſo long as their a<g ref="char:EOLhyphen"/>varice laſts there is no end of Epiſcopacy. 3. Becauſe we do not examine, what kinde of
+<pb n="12" facs="tcp:180245:7"/>Government Chriſt gave, the Queſtion Government is not <hi>Juris</hi> but <hi>facti.</hi> VV<gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> is that agreeable with reaſon and civil Govern<g ref="char:EOLhyphen"/>ment, No, but <hi>de <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>cto,</hi> what Governm<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> Chriſt hath eſtabliſhed, an office that is <hi>J<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> Divino</hi> ſhould be eſtabliſhed, but if it be office of man it ought to be rejected. T<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> great Doctor teaches us that when God fig<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> againſt man he ſhall prevaile, but when M<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> fights againſt God, they ſhall be found fight<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> againſt him, <hi>Gen.</hi> 11. The builders of Bab<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the Lord made every one of them that th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> knew not what another ſaid, this was an ea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thing to the Lord, and ſo the work was inte<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>rupted in building: The Lord is wonderfull building, and can bring downe Babel, gre<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> oppoſition was, made againſt Joſeph by h<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Brethren, and great oppoſition againſt David yet Gods counſell behoved to ſtand, what o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>poſition was made againſt Gods people in E<g ref="char:EOLhyphen"/>gypt in bringing them out of Egypt yet the behoved to come forth: and you know in you<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> propagation of the Goſpel and the work of re<g ref="char:EOLhyphen"/>formation, and becauſe many his oppoſed yet it hath gone through. And you kno<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> great oppoſition is been uſed againſt this wor<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> by the wicked, but yet bleſſed be God it ha<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> proclamed it ſelf through the Land.</p>
+            <pb n="13" facs="tcp:180245:7"/>
+            <p> He brought in two inſtances to prove that the <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>rk of man will come to nought, one of Theu<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> he was one that conceived himſelf to be a <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>phet but a falſe one: and Judas he would have <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>waded the people from giveing that duty to <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> civill Magiſtrat that they ought to have <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ne, and there were Sects that followed them; <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e errors of Religion commonly ſprings ey<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> from the Spirit of Theudas, which is a Spi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> of fantaſie, or from the other and that is a <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>rit of rebellion and that is not of God.</p>
+            <p>Conſider all tho they be the many yet there <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> more like wayes as there are Spirits contraire <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Spirit of Theudas, and this is your Spi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> of Pharaoh, who ſaid who is the Lord that <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>t I ſhould ſerve him, and that is Atheiſme, <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> other is contrarie to Judas &amp; that is Herods, <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>t runs to flattery, an gives man that, that <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>tains to God.</p>
+            <p>As Atheiſme is an abomination before God, <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> is Rebellion and flatiery the true reformed <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ligion abhorres disobedience, and gives to <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ſar that which is Caeſars, and ſure we pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e a harmeles Religion. I would exhort you <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> two things, firſt to the courſe of faith which <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ores godlesneſs and vaine conceits of men <gap reason="illegible: in gutter" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> am now pleading for the innocency of <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ligion) ye know what our adverſaries have <gap reason="illegible: in gutter" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>nted againſt us, that we are guilty of many
+<pb n="14" facs="tcp:180245:8"/>crimes and tricks, and that we have made ople to feigne themſelves inpired with Spirit of divination, which is againſt <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Truth. The ſecond thing is the courſe o<g ref="char:EOLhyphen"/>bedience there was never a greater friend Kings then Chriſt, there is no queſtion about <hi>Judas</hi> os Galilee his part, whether ſhould pay tax or not nether of that in war <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>verence to Princes or that reſpect we carr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> him, I wiſh his owne prayers were never <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that doth not heartily pray for his Maje<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> but the Queſtion is what is his part in Relig<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> and matters Eccleſiaſtick, it is both ſaid printed that I ſhould have ſpoken much, my fellow Brethren (the reſt of the Cove<g ref="char:EOLhyphen"/>ters) would not allow of that I ſaid and ſay regall inſpection belongs to Kings over Ch<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> matters, and that the King was Supreme op over all this Kingdom, now my adv<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ries think I have made him a Churchman, ignorant but not So, as for the head o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Church we acknowledge none but Chriſt for the other <hi>Epiſcopus</hi> is a name that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> well proper to a civill Magiſtrat as to a S<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tual, therefore Conſtantine ſayth, <hi>Vos Epiſcopi intra, ego extra.</hi> Next that <hi>Guſtos utriusque Tabulae,</hi> Vindication be unto him, who carries the Sword of San<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and coerction, and Convocation of Syn
+<pb n="15" facs="tcp:180245:8"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow this preſent Generall Aſſembly is con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ened &amp; as he conveens ſo he ſhould examine <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>em, if he finde any thing againſt the Word <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> God he ſhould reject it, thus I ſpeak not of negative voice his Majeſtie hath.</p>
+            <p>And now I have ſhowne the particulars I <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ve been taxed upon, hopeing this honou<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ble Aſſembly, will further conſider of it and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow I come to ſpeak one word to your Com<g ref="char:EOLhyphen"/>miſſioners Grace who repreſents his Majeſtie. As for your Grace his Majeſties Commiſſio<g ref="char:EOLhyphen"/>ner we beſeech you to ſee that Caeſar have his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>wne, but let not Caeſer have what is due to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od, and belongs to him, God has exalted <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>our Grace to many high places within theſe <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>w years, and more eſpecially now, be thank<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>l and labour to exalt Chriſts Throne, ſome <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e exalted like Haman and ſome like Mor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ecai.</p>
+            <p>I pray God theſe good parts the Lord hath <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ndowed you with you may uſe them a right, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Iſraelites when they came out of Egypt <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> give all their Silver and Gold for building <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f the Tabernacle, I tell your Gr: ye muſt be <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>omptable for all your actions eſpecially in theſe publick buſineſes.</p>
+            <p>And to you right honourable and right Wor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ipfull Members of this Aſſembly, go on in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>our Zeal conſtantly, it is not true zeal that
+<pb n="16" facs="tcp:180245:9"/>growes cold, but the nearer it is the end it be the hoter if it ſhall pleaſe God that by hands the light of the Goſpel ſhall be contin<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Surely it ſhall be a refreſhment to you and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> children that you ſhould have lived when light of the Goſpel was almoſt extinguiſhed now to ſee it quickned again after all the Troubles. With a holy Moderation go on Zeal is a good Servant but an ill Maſter, a ſhip that his a full ſaile and wants a rudder.</p>
+            <p>VVe have need of Chriſtian prudence ye know what ill ſpeeches our adverſaries h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> made upon us let it be ſeen to his Majeſtie <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> this Government can very well ſtand wit<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Monarchiall Government, hereby we ſ<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> gain his Majeſties favour and God ſhall get Glory to whom be praiſe for ever and ever Amen.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
